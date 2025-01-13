@@ -1,0 +1,64 @@
+#mybutton{
+    font-size:2rem;
+    
+}
+body{
+    background-image: url("image/bg.png");
+}
+
+.pokemonInformationDisplay{
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    place-items: center;
+    max-width: 400px;
+    padding:50px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+    margin-left: 200px;
+    
+    flex-direction: column;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    
+}
+.nameDisplay{
+    color: rgb(248, 235, 54);
+    font-family: "Jersey 15", serif;
+    font-size: 8rem;
+}
+.displayTypes{
+    color: rgb(255, 255, 255);
+    font-family: "Jersey 15", serif;
+    font-size: 3rem;
+}
+.displayAbilities{
+    color: rgb(182, 182, 182);
+    font-family: "Jersey 15", serif;
+    font-size: 2rem;
+}
+.displayWeakness{
+    color: white;
+    font-family: "Jersey 15", serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 10px 10px 10px rgb(163, 162, 162);
+
+}
+input{
+    margin-left: 200px;
+    width: 300px; 
+    height: 40px; 
+    padding: 10px; 
+    font-size: 16px;
+    border-radius: 20px;
+}
+button{
+    height: 40px;
+    
+}

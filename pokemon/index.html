@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title> Fan's Pokemon</title>
+        
+        <link rel ="stylesheet" href ="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+
+    </head>
+    <body> 
+        
+        
+        <button onclick="ChangeToShiny()" id = "shinybtn">Shiny ✨</button><br>
+        <input type = "text" id = "pokemonName" placeholder="Enter Pokemon name">
+        <button onclick="fetchData()">Search Pokemon</button><br>
+        
+
+        <div class = "pokemonInformationDisplay">
+            <img src="" alt =" Pokemon Sprite" id = "PokemonSprite" style= "display: none;">
+
+            <div class ="card" style = "display: none;"></div>
+            
+        </div>
+        
+        
+
+        
+        
+        <script src = "index.js"></script> 
+    </body>
+</html>

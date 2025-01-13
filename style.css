@@ -1,0 +1,254 @@
+
+
+
+.links{
+    position: fixed; /* Fixes the element relative to the viewport */
+    top: 50%; /* Vertically center the element */
+    right: 0; /* Align to the right edge of the screen */
+    transform: translateY(-50%); /* Adjust to true vertical center */
+    border: 2px solid rgb(0, 0, 0); /* Border width and color */
+    padding: 10px; /* Space between border and content */
+    display: inline-flex; /* Ensures the border only covers content */
+    flex-direction: column; /* Align items in a column */
+    gap: 10px; /* Add spacing between items */
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.801);
+    font-size: 70px;
+    
+}
+
+#topPart{
+    position: fixed;
+    top: 0; /* Sticks to the top of the viewport */
+    z-index: 1000;
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Align items vertically */
+    padding: 10px 10px; /* Add padding for spacing */
+    background-color: #000000be; /* Light background for header */
+    border-bottom: 1px solid #ccc;
+}
+
+.menu{
+    font-family: Kanit;
+    margin-left:850px;
+    margin-top: 40px;
+    font-weight: bold;
+    display:flex;
+    padding: 10px 20px;
+    flex-direction: row;
+    align-items: center;
+    gap: 90px;
+    
+
+}
+.menu li a{
+    
+    text-decoration: none;
+    color:rgb(238, 248, 150);
+    font-size: 50px;
+    text-shadow: black 7px 7px;
+    cursor: pointer;
+    
+}
+.menu li a:hover{
+    color:rgb(160, 168, 83);
+}
+.headerElements{
+    
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Align items vertically */
+    padding: 10px 10px; /* Add padding for spacing */
+    background-color: #000000be; /* Light background for header */
+    border-bottom: 1px solid #ccc;
+    
+    
+}
+#topicname{
+    color: white;
+    margin-left: 100px;
+    font-size: 26px;
+    display: flex;
+    font-family: Playwrite AU SA;
+    
+}
+
+
+#middlePart{
+    background-image: url(images/dallas.jpg);
+    background-position: center;
+    background-size: cover ;
+    background-attachment: fixed;
+    margin-top:0;
+    margin: 0;
+    padding: 0;
+}
+#bottomPart{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+}
+
+
+
+
+#words_in_center{
+    
+    text-align: center; /* Center-align text inside */
+    font-size: 100px; /* Adjust font size */
+    color: #fffbfb;
+}
+#words_in_center span {
+    font-family: Oswald;
+    text-shadow: 5px 5px rgba(4, 114, 72, 0.753);
+    display: block; /* Forces each span to take a new line */
+    margin-top: 100px;
+    
+}
+.photo_info{
+    align-items: center;
+    text-align: center;
+   
+}
+
+
+#myphoto{
+    width: 400px;
+    height: 400px;
+    border: none;
+    border-radius: 50%;
+    margin-left: 200px;
+    
+
+}
+
+.myInfo{
+    text-align: center;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#myName{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#utdLink{
+    text-decoration: none;
+}
+
+
+
+.other_info{
+    align-items: center;
+    text-align: center;
+    margin-left:100px ;
+    
+} 
+
+.otherInfo{
+    color: rgb(70, 70, 70);
+}
+
+
+
+.myBiography{
+    
+    width: 700px;
+    text-align: center;
+}
+#topicofBio{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
+#textOfBio{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.myEducation{
+    width: 500px;
+    text-align: left;
+}
+#education_topic{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    
+}
+.content_education{
+    font-size: 30px;
+}
+.myHobbies{
+    width: 500px;
+    text-align: left;
+}
+#eduaction_topic{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+.content_hobby{
+    font-size: 30px;
+}
+
+
+.contact_info{
+    background-color: rgb(5, 4, 29);
+    align-items: center;
+    text-align: center;
+    
+
+}
+#contact_topic{
+    
+    margin: 20px;
+    padding:20px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+#contact_msg{
+    background-color: white;
+    width:50%;
+    margin-left: 125;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+#contact_btn{
+    background-color: rgb(241, 239, 211);
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 10px 18px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+#contact_btn:hover{
+    background-color: rgb(114, 111, 66);
+    cursor: pointer;
+}
+#first_name{
+    margin: 10px;
+}
+#last_name{
+    margin: 10px;
+}
+#email{
+    margin: 10px;
+}
+.Projects{
+    
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    font-size:50px;
+    margin: 50px;
+    margin-top: 300px;
+    font-family:Kanit ;
+}
