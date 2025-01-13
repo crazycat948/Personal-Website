@@ -22,9 +22,7 @@
     top: 0; /* Sticks to the top of the viewport */
     z-index: 1000;
     display: flex; /* Flexbox for horizontal alignment */
-    justify-content: space-between; /* Space between left and right sections */
     align-items: center; /* Align items vertically */
-    padding: 10px 10px; /* Add padding for spacing */
     background-color: #000000be; /* Light background for header */
     border-bottom: 1px solid #ccc;
     width: 100vw;
@@ -32,7 +30,7 @@
 
 .menu{
     font-family: Kanit;
-    margin-left:50px;
+    margin-left: 750px;
     margin-top: 40px;
     font-weight: bold;
     display:flex;
